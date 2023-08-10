@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Libre+Franklin&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  width: 350px;
+}
+.horizontal {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  text-decoration: none;
+  flex-flow: row;
+  gap: 45px;
+  font-size: 38px;
+  color: rgb(0, 83, 56);
+}
+p {
+  font-size: 40px;
+  font-family: "Bad Script", cursive;
+}
+.contenedor1 {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+.contenedor2 {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+footer {
+  display: flex;
+  background-color: black;
+  font-size: 18px;
+  color: rgb(248, 248, 248);
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+}
+.titulo1 {
+  background-color: rgb(252, 233, 245);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+.titulo2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(252, 233, 245);
+}
+.titulo3 {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+h1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 64px !important;
+  color: rgb(0, 83, 56) !important;
+}
+.caracteristicas {
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-inner img {
+  width: 50%;
+  max-height: 860px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.separador1 {
+  background-color: rgb(252, 233, 245);
+  width: 350px;
+}
+.tipografia1 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 84px !important;
+}
+.tipografia2 {
+  display: flex;
+  font-family: "Yeseva One", cursive;
+  font-size: 86px !important;
+  flex-direction: row;
+  width: 70%;
+  justify-content: center;
+  align-content: space-around;
+  align-items: center;
+}
+.tipografia3 {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cuadro1 {
+  height: 50px;
+  background-color: rgb(252, 233, 245);
+}
+.cuadro2 {
+  height: 50px;
+  background-color: rgb(252, 233, 245);
+}
+.cuadro3 {
+  height: 300px;
+  background-color: rgb(252, 233, 245);
+}
+.cuadro4 {
+  height: 450px;
+  background-color: rgb(252, 233, 245);
+}
+.cuadro5 {
+  height: 150px;
+  background-color: white;
+}
+.cuadro6 {
+  height: 150px;
+  background-color: white;
+}
+.cuadro7 {
+  height: 150px;
+  background-color: rgb(252, 233, 245);
+}
+.cuadro8 {
+  height: 150px;
+  background-color: rgb(252, 233, 245);
+}
+.cuadro9 {
+  height: 150px;
+  background-color: white;
+}
+.cuadro10 {
+  height: 150px;
+  background-color: white;
+}
+.cuadro11 {
+  height: 150px;
+  background-color: rgb(252, 233, 245);
+}
+.cuadro12 {
+  height: 150px;
+  background-color: rgb(252, 233, 245);
+}
+.contenedor3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+  background-color: rgb(252, 233, 245);
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.imagenlogotransparente {
+  width: 500px !important;
+}
+.imagenfacebook {
+  width: 150px;
+}
+.imageninstagram {
+  width: 150px;
+}
+.redes-sociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.carousel-agosto {
+  font-size: 50px;
+  color: white;
+}
+.contenedor6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  gap: 60px;
+  background-color: rgb(252, 233, 245);
+  color: rgb(0, 83, 56);
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.botonordenar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(252, 233, 245);
+  font-size: 30px;
+}
+button {
+  outline: none;
+  color: #daa06d;
+  padding: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+  border: 2px dashed #daa06d;
+  border-radius: 15px;
+  background-color: #eaddca;
+  box-shadow: 0 0 0 4px #eaddca, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.1s ease-in-out, 0.4s color;
+}
+button:active {
+  transform: translateX(0.1em) translateY(0.1em);
+  box-shadow: 0 0 0 4px #eaddca, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+}
